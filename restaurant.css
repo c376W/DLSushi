@@ -1,0 +1,68 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color: #222;
+
+}
+
+img{
+	width:100%;
+}
+button{
+	background-color: #222;
+	color:#ddd;
+	border:none;
+}
+
+button:focus{
+	outline:none;
+}
+
+.navbar{
+	color:#ddd;
+	font-family: 'Alfa Slab One', cursive;
+	font-size:1.5rem;
+	display: flex;
+	justify-content: space-around;
+	padding:10px;
+	padding-right: 50px;
+	flex-wrap: wrap;
+}
+
+.menuChoice{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.nav-el{
+	margin:10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: 0.5s;
+}
+
+.nav-el:hover{
+	color:#bf1b23;
+	cursor: pointer;
+}
+.nav-el:focus{
+	color:#f03740;
+}
+
+.inner-small{
+	font-size: 1rem;
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+
+
+}
+
+
+#logo{
+	margin-left: 80px;
+}
