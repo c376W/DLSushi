@@ -11,6 +11,7 @@ body{
 
 img{
 	width:100%;
+	
 }
 button{
 	background-color: #222;
@@ -20,6 +21,12 @@ button{
 
 button:focus{
 	outline:none;
+}
+
+p{
+	padding-bottom:20px;
+	margin:0px 20px;
+	font-family: 'Hepta Slab', serif;
 }
 
 .navbar{
@@ -66,7 +73,10 @@ button:focus{
 	width:293px;
 	height:293px;
 	border-radius: 50%;
+	margin:80px;
 }
+
+
 
 #logo{
 	margin-left: 80px;
@@ -87,7 +97,7 @@ button:focus{
 	align-items: center;
 	justify-content: center;
 	width:100%;
-	height:180px;
+
 	background-color:#f0d7bd;
 }
 
@@ -96,6 +106,13 @@ button:focus{
 	font-size: 4rem;
 	margin-top:20px;
 
+}
+
+.about-title{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 2rem;
+	color:#781010;
+	padding-bottom: 0px;
 }
 
 #about-us-1,#about-us-2{
@@ -114,7 +131,7 @@ button:focus{
 	display: flex;
 	justify-content: center;
 	width:100%;
-	height:500px;
+
 
 }
 #about-text{
@@ -125,7 +142,7 @@ button:focus{
 }
 
 #pic{
-	padding:100px;
+	padding:80px;
 	display: flex;
 	align-items: center;
 }
@@ -133,6 +150,7 @@ button:focus{
 #pic img{
 	height:400px;
 	width:auto;
+	border-radius: 20px;
 }
 
 #horImg{
@@ -140,12 +158,13 @@ button:focus{
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-end;
-	height:300px;
+	text-align: center;
 	color:#fff;
 	background-image: url(./img/most-wanted-burger.jpg);
 }
 
 #horImg-1{
+	padding-top:100px;
 	font-size: 3rem;
 	
 }
@@ -162,7 +181,7 @@ button:focus{
 
 #three-choices{
 	width:100%;
-	height:400px;
+	
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -170,6 +189,7 @@ button:focus{
 }
 
 #customer-opinion{
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -196,3 +216,58 @@ button:focus{
 	font-size: 1.5rem;
 }
 
+@media(max-width: 1400px){
+	#about-content{
+		flex-direction: column;
+		align-items: center;
+	}
+	#pic{
+		padding: 10px;
+	}
+
+}
+
+@media(max-width: 900px){
+	.nav-el{
+		font-size: 1rem;
+	}
+	i{
+		font-size: 2rem;
+	}
+	#three-choices{
+		flex-direction: column;
+	}
+	#pic{
+		padding:10px;
+	}
+	#pic img{
+		width:300px;
+		height: auto;
+	}
+	.choice{
+		margin:10px;
+	}
+	.nav-el{
+		display: none;
+	}
+	.navbar{
+		justify-content: flex-start;
+	}
+
+
+}
+
+@media(max-width: 400px){
+	#about-us-1{
+		font-size: 2rem;
+	}
+	#about-us-2{
+		font-size: 1rem;
+	}
+	#pic img{
+		width:250px;
+	}
+}
+
+/*@media(max-width: 800px)*/
+/*There should be a hamburger at the top of the page.*/
