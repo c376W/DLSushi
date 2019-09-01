@@ -101,16 +101,16 @@ p{
 	flex-direction: column;
 	justify-content:  center;
 	background-color: #fff;
+	padding:10px 80px;
+	flex-wrap: wrap;
 }
 .menu-specifics{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	padding:10px;
 }
 
-.menu-content{
-	padding:10px 80px;
-}
 .menu-subtitles{
 	font-size:1.5rem;
 	font-weight: bold;
@@ -133,10 +133,11 @@ p{
 
 .contact-us{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	padding:50px;
 	background-color: #000;
 	color: #fff;
+	flex-wrap: wrap;
 }
 
 .contact-item i{
@@ -147,6 +148,7 @@ p{
 .contact-item{
 	padding:40px;
 	text-align: center;
+	width:300px;
 }
 .contact-icon i{
 	transition: 0.3s;
@@ -357,6 +359,10 @@ button.view-menu:hover{
 		justify-content: flex-start;
 	}
 
+	.menu-content{
+		padding:10px 20px;
+	}
+
 
 }
 
@@ -369,6 +375,12 @@ button.view-menu:hover{
 	}
 	#pic img{
 		width:250px;
+	}
+	.menu-title-sp{
+		font-size: 1rem;
+	}
+	.menu-title{
+		font-size:2rem;
 	}
 }
 
