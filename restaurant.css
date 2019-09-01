@@ -96,6 +96,82 @@ p{
 
 }
 
+.menu-content{
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	background-color: #fff;
+}
+.menu-specifics{
+	display: flex;
+	justify-content: center;
+	padding:10px;
+}
+
+.menu-content{
+	padding:10px 80px;
+}
+.menu-subtitles{
+	font-size:1.5rem;
+	font-weight: bold;
+}
+
+.menu-content p{
+	margin:0px;
+	padding:0px;
+}
+
+.menu-button{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.container{
+	padding:40px;
+}
+
+.contact-us{
+	display: flex;
+	justify-content: center;
+	padding:50px;
+	background-color: #000;
+	color: #fff;
+}
+
+.contact-item i{
+	font-size: 5rem;
+	color: #ddd;
+}
+
+.contact-item{
+	padding:40px;
+	text-align: center;
+}
+.contact-icon i{
+	transition: 0.3s;
+}
+.contact-icon i:hover{
+	cursor:pointer;
+	color:#781010;
+}
+
+button.view-menu{
+	font-family: 'Hepta Slab', serif;
+	font-weight: bold;
+	width:180px;
+	padding:10px;
+	border-radius: 5px;
+	background-image: linear-gradient(#7a342f,#572521);
+}
+button.view-menu:hover{
+	background-image: linear-gradient(#572521,#7a342f);
+}
+
+.img-gap{
+	padding:2px;
+}
+
 
 
 #logo{
@@ -130,16 +206,21 @@ p{
 	padding-bottom: 0px;
 }
 
-#about-us-1,#about-us-2,#special-menu-1,#special-menu-2{
+#about-us-1,#about-us-2,#special-menu-1,#special-menu-2,.menu-title-sp{
 	color:#781010;
 
 }
 
-#about-us-1,#special-menu-1{
+#about-us-1,#special-menu-1,.menu-title-sp{
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 4rem;
 	margin-top:20px;
 
+}
+.menu-title-sp{
+	font-size: 3rem;
+	background-color: #fff;
+	text-align: center;
 }
 
 #about-us-2,#special-menu-2{
