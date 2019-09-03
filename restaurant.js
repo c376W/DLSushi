@@ -1,15 +1,18 @@
-var navButtons=document.querySelectorAll(".nav-el");
-console.log(navButtons);
+// var choices=document.querySelectorAll(".choice");
+// console.log(choices);
+// choices.forEach(function(el){
+// 	console.log(el.childNodes[3]);
+// 	el.addEventListener("mouseover",function(){
+// 		console.log(el.childNodes[3].style.display);
+// 		el.childNodes[3].style.display="block";
+// 		el.childNodes[3].style.transition="0.3s";
 
-// navButtons.addEventListener("click",function(){
-// 	console.log(navButtons.length);
-// 	this.style.color="#f03740";
-// });
-// navButtons.forEach(el=>{
-
-// 	el.addEventListener("click",function(){
-// 		this.style.color="#f03740";
-
+// 		console.log(el.childNodes[3].style.display);
+// 	});
+// 	el.addEventListener("mouseleave",function(){
+// 		console.log(el.childNodes[3].style.display);
+// 		el.childNodes[3].style.display="none";
+// 		console.log(el.childNodes[3].style.display);
 // 	})
-	
-// });
+// })
+
