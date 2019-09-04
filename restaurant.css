@@ -9,7 +9,9 @@ body{
 
 }
 
-
+a:link{
+	text-decoration: none;
+}
 
 img{
 	width:100%;
@@ -517,5 +519,17 @@ button.readMore{
 	}
 }
 
-/*@media(max-width: 800px)*/
-/*There should be a hamburger at the top of the page.*/
+
+/*Read More Page*/
+.readMore-Content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:30px;
+}
+
+.read-more-title{
+	font-size: 3rem;
+	color:#bf1b23;
+	font-family: 'Alfa Slab One', cursive;
+}
