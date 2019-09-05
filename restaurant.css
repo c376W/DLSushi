@@ -304,12 +304,12 @@ button.readMore{
 	padding-bottom: 0px;
 }
 
-#about-us-1,#about-us-2,#special-menu-1,#special-menu-2,.menu-title-sp,.gallery-1,.gallery-2{
+#about-us-1,#about-us-2,#special-menu-1,#special-menu-2,.mtitle,.menu-title-sp,.gallery-1,.gallery-2{
 	color:#781010;
 
 }
 
-#about-us-1,#special-menu-1,.menu-title-sp,.gallery-1{
+#about-us-1,#special-menu-1,.menu-title-sp,.gallery-1,.mtitle{
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 4rem;
 	margin-top:20px;
@@ -326,10 +326,16 @@ button.readMore{
 
 .menu-title-sp{
 	font-size: 3rem;
-	background-color: #fff;
 	text-align: center;
+	background-color: #fff;
 }
 
+
+.mtitle{
+	font-size: 3rem;
+	text-align: center;
+
+}
 
 #about-content{
 	display: flex;
@@ -420,6 +426,75 @@ button.readMore{
 	font-size: 1.5rem;
 }
 
+
+
+/*Read More Page*/
+.readMore-Content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:30px;
+}
+
+.read-more-title{
+	font-size: 3rem;
+	color:#bf1b23;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+/*Menu Page*/
+.menu-img{
+	/*position: relative;*/
+	background-image: url('http://burger.ketchupthemes.com/wp-content/uploads/2015/05/image31.jpg');
+}
+.menu-page-title{
+	/*position:absolute;*/
+	/*top:100px;*/
+	color:#fff;
+	font-size:3rem;
+	text-align: center;
+	padding-top:100px;
+}
+
+#menu-page-1{
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.menu-page-title p{
+	font-weight: bold;
+	font-size:2rem;
+}
+
+.menu-break{
+	height:100px;
+	width:100%;
+	background-color:#f7a36a;
+}
+
+.menu-page-content{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom:100px;
+}
+
+.menu-page-specific-content{
+	display:flex;
+	justify-content: center;
+}
+
+.menu-page-column{
+	display:flex;
+	flex-direction: column;
+}
+
+.menu-page-item{
+	width:600px;
+}
+
+
+
 @media(max-width: 1400px){
 	#about-content{
 		flex-direction: column;
@@ -431,7 +506,16 @@ button.readMore{
 
 }
 
+@media(max-width: 1200px){
+	.menu-page-specific-content{
+		flex-direction: column;
+	}
+}
 @media(max-width: 900px){
+
+	.menu-page-item{
+		width:300px;
+	}
 	.nav-el{
 		font-size: 1rem;
 	}
@@ -485,6 +569,10 @@ button.readMore{
 }
 
 @media(max-width:500px){
+
+	.mtitle{
+		font-size: 1.5rem;
+	}
 	.sliderImg-info1,.sliderImg-info2,.sliderImg-info3,
 	.sliderImg-info4,.sliderImg-info5,.sliderImg-info6{
 		display: none;
@@ -520,16 +608,4 @@ button.readMore{
 }
 
 
-/*Read More Page*/
-.readMore-Content{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding:30px;
-}
 
-.read-more-title{
-	font-size: 3rem;
-	color:#bf1b23;
-	font-family: 'Alfa Slab One', cursive;
-}
