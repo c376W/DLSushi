@@ -1,18 +1,26 @@
-// var choices=document.querySelectorAll(".choice");
-// console.log(choices);
-// choices.forEach(function(el){
-// 	console.log(el.childNodes[3]);
-// 	el.addEventListener("mouseover",function(){
-// 		console.log(el.childNodes[3].style.display);
-// 		el.childNodes[3].style.display="block";
-// 		el.childNodes[3].style.transition="0.3s";
+var navbar=document.querySelector(".navbar");
+console.log(navbar);
+var navButton=document.querySelector(".collapse-hb");
+var collapsed=document.querySelector(".collapsed-choices");
+var flyaway=document.querySelector(".fly-away-wrapper");
 
-// 		console.log(el.childNodes[3].style.display);
-// 	});
-// 	el.addEventListener("mouseleave",function(){
-// 		console.log(el.childNodes[3].style.display);
-// 		el.childNodes[3].style.display="none";
-// 		console.log(el.childNodes[3].style.display);
-// 	})
-// })
+
+navButton.addEventListener("click",function(){
+	if(collapsed.classList[1]==="collapse-show"){
+		collapsed.classList.remove("collapse-show");
+	}else{
+		collapsed.classList.add("collapse-show");
+		console.log(collapsed.classList);
+	}	
+})
+
+flyaway.addEventListener("click",hide);
+
+
+function hide(){
+	if(collapsed.classList[1]==="collapse-show"){
+		collapsed.classList.remove("collapse-show");
+	};
+}
+
 

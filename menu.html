@@ -20,6 +20,11 @@
 <body>
 	<nav class="navbar">
 		<div class="nav-el" id="logo"><i class="fas fa-hamburger"></i></div>
+		<button class="collapse-hb">
+			<div class="collapse-lines" id="collapse-line-1"></div>
+			<div class="collapse-lines" id="collapse-line-2"></div>
+			<div class="collapse-lines" id="collapse-line-3"></div>
+		</button>
 		<div class="menuChoice">
 			<a href="index.html"><button class="nav-el" id="home">
 				HOME
@@ -29,10 +34,10 @@
 				NEWS
 				<span class="inner-small">Great News!</span>
 			</button>
-			<button class="nav-el" id="menu">
+			<a href="menu.html"><button class="nav-el" id="menu">
 				MENU
 				<span class="inner-small">Great Menus</span>
-			</button>
+			</button></a>
 			<button class="nav-el" id="contact">
 				CONTACT
 				<span class="inner-small">Get in touch</span>
@@ -45,105 +50,116 @@
 		</div>
 		
 	</nav>
-
-	<div class="menu-img">
-		<!-- <img src="http://burger.ketchupthemes.com/wp-content/uploads/2015/05/image31.jpg"> -->
-		<div class="menu-page-title">
-			<div id="menu-page-1">Menu</div>
-			<p>Our New Menu</p>
-		</div>
-	</div>
-	<div class="menu-break"></div>
-
-	<div class="menu-page-content">
-		<p class="menu-subtitles" style="color:#572521;padding:30px;">Great Menus!</p>
-		<div class="menu-page-specific-content">
-			<div class="menu-page-column">
-				<div class="menu-page-item">
-					<p class="mtitle"><i class="fas fa-box-open"></i> Side Dishes</p>
-					<p style="font-weight:bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-					<p class="menu-subtitles">Green Salad ($6.00)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-					<p class="menu-subtitles">Big Bun finger food ($4.00)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-					<p class="menu-subtitles">French Fries ($3.50)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-				</div>
-				<div class="menu-page-item">
-					<p class="mtitle"><i class="fas fa-hamburger"></i> Hamburgeres Porao</p>
-					<p style="font-weight:bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-					<p class="menu-subtitles">Special Double Burger ($10.00)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-					<p class="menu-subtitles">Big Bun Special Burger ($12.00)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-					<p class="menu-subtitles">Classic Cheeseburger ($5.50)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-					
-				</div>
-			</div>
-			<div class="menu-page-column">
-				<div class="menu-page-item">
-					<p class="mtitle"><i class="fas fa-beer"></i> Beers</p>
-					<p style="font-weight:bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-					<p class="menu-subtitles">Weiss 600ml ($8.00)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-					<p class="menu-subtitles">Pills ($4.70)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-					<p class="menu-subtitles">Bun Ale ($6.50)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-				</div>
-				<div class="menu-page-item">
-					
-
-					<p class="mtitle"><i class="fas fa-cocktail"></i> Soft Drinks</p>
-					<p style="font-weight:bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-					<p class="menu-subtitles">Ice Tea ($3.00)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-					
-				</div>
-				<div class="menu-page-item">
-					<p class="mtitle"><i class="fas fa-ice-cream"></i> Desserts</p>
-					<p style="font-weight:bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-					<p class="menu-subtitles">Chocolate Fusion for 2 ($10.00)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-					<p class="menu-subtitles">Blueberry Muffin ($3.40)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-					<p class="menu-subtitles">Muffin ($2.50)</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-				</div>
-			</div>
-		</div>
-		
+	<div class="collapsed-choices">
+		<a href="index.html"><div class="collapsed-choice ruby">Home</div></a>
+		<div class="collapsed-choice ruby">News</div>
+		<a href="menu.html"><div class="collapsed-choice ruby">Menu</div></a>
+		<div class="collapsed-choice ruby">Contact</div>
+		<div class="collapsed-choice ruby">Reservation</div>
 	</div>
 
-	<div class="menu-break"></div>
+	<div class="fly-away-wrapper">
 
-	<div class="contact-us">
-		<div class="contact-item"><i class="fas fa-hamburger"></i></div>
-		<div class="contact-item">
-			<p>Call us</p>
-			<p>xxx xxx xxxx</p>
+		<div class="menu-img">
+			<!-- <img src="http://burger.ketchupthemes.com/wp-content/uploads/2015/05/image31.jpg"> -->
+			<div class="menu-page-title">
+				<div id="menu-page-1">Menu</div>
+				<p>Our New Menu</p>
+			</div>
 		</div>
-		<div class="contact-item">
-			<p>Find us</p>
-			<p>Test Address, 34, Live City, Order your food now or book a table.</p>
+		<div class="menu-break"></div>
+
+		<div class="menu-page-content">
+			<p class="menu-subtitles" style="color:#572521;padding:30px;">Great Menus!</p>
+			<div class="menu-page-specific-content">
+				<div class="menu-page-column">
+					<div class="menu-page-item">
+						<p class="mtitle"><i class="fas fa-box-open"></i> Side Dishes</p>
+						<p style="font-weight:bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p class="menu-subtitles">Green Salad ($6.00)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						<p class="menu-subtitles">Big Bun finger food ($4.00)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						<p class="menu-subtitles">French Fries ($3.50)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+					</div>
+					<div class="menu-page-item">
+						<p class="mtitle"><i class="fas fa-hamburger"></i> Hamburgeres Porao</p>
+						<p style="font-weight:bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p class="menu-subtitles">Special Double Burger ($10.00)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						<p class="menu-subtitles">Big Bun Special Burger ($12.00)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						<p class="menu-subtitles">Classic Cheeseburger ($5.50)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						
+					</div>
+				</div>
+				<div class="menu-page-column">
+					<div class="menu-page-item">
+						<p class="mtitle"><i class="fas fa-beer"></i> Beers</p>
+						<p style="font-weight:bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p class="menu-subtitles">Weiss 600ml ($8.00)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						<p class="menu-subtitles">Pills ($4.70)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						<p class="menu-subtitles">Bun Ale ($6.50)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+					</div>
+					<div class="menu-page-item">
+						
+
+						<p class="mtitle"><i class="fas fa-cocktail"></i> Soft Drinks</p>
+						<p style="font-weight:bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p class="menu-subtitles">Ice Tea ($3.00)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						
+					</div>
+					<div class="menu-page-item">
+						<p class="mtitle"><i class="fas fa-ice-cream"></i> Desserts</p>
+						<p style="font-weight:bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p class="menu-subtitles">Chocolate Fusion for 2 ($10.00)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						<p class="menu-subtitles">Blueberry Muffin ($3.40)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						<p class="menu-subtitles">Muffin ($2.50)</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+					</div>
+				</div>
+			</div>
+			
 		</div>
-		<div class="contact-item">
-			<p>Socialize</p>
-			<div>
-				<div class="contact-icon">
-					<i class="fab fa-facebook-square"></i>
-					<i class="fab fa-twitter-square"></i>
-					<i class="fab fa-linkedin"></i>
-					<i class="fab fa-instagram"></i>
+
+		<div class="menu-break"></div>
+
+		<div class="contact-us">
+			<div class="contact-item"><i class="fas fa-hamburger"></i></div>
+			<div class="contact-item">
+				<p>Call us</p>
+				<p>xxx xxx xxxx</p>
+			</div>
+			<div class="contact-item">
+				<p>Find us</p>
+				<p>Test Address, 34, Live City, Order your food now or book a table.</p>
+			</div>
+			<div class="contact-item">
+				<p>Socialize</p>
+				<div>
+					<div class="contact-icon">
+						<i class="fab fa-facebook-square"></i>
+						<i class="fab fa-twitter-square"></i>
+						<i class="fab fa-linkedin"></i>
+						<i class="fab fa-instagram"></i>
+					</div>
 				</div>
 			</div>
 		</div>
+
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
