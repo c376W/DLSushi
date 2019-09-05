@@ -218,8 +218,11 @@ p{
 
 .ruby{
 	font-size:1.5rem;
-	color:#572521;
+	color:#960505;
 	font-weight: bold;
+}
+.red{
+	color:#960505;
 }
 
 .opinion-content{
@@ -573,6 +576,7 @@ button.readMore{
 .contact-form-time{
 	display: flex;
 	justify-content: space-around;
+	font-family: 'Hepta Slab', serif;
 }
 
 .contact-form{
@@ -586,14 +590,37 @@ button.readMore{
 	align-items: center;
 	padding-bottom: 50px;
 }
+.form-submit-button{
+	color:#fff;
+	background-color:#d60d0d;
+	transition: .3s;
+}
+.form-submit-button:hover{
+	background-color: #940909;
+	color:#fff;
+}
 
+input.form-control,textarea.form-control{
+	width:600px;
+	height:50px;
+}
+
+textarea.form-control{
+	height:100px;
+}
 .operating-hours{
 	width:300px;
+	margin-bottom:50px;
 }
 
 .operating-hour{
 	display: flex;
 	justify-content: space-between;
+	padding:10px;
+}
+.contact-details{
+	margin-bottom:50px;
+	width:400px;
 }
 
 .time-break-line{
@@ -620,7 +647,10 @@ button.readMore{
 	}
 }
 @media(max-width: 1000px){
-
+	.contact-form-time{
+		flex-direction: column;
+		align-items: center;
+	}
 	.collapse-hb{
 		display: block;
 	}
@@ -678,6 +708,25 @@ button.readMore{
 	}
 
 
+}
+
+@media(max-width: 700px){
+	input.form-control,textarea.form-control{
+		width:300px;
+		height:50px;
+	}
+
+	textarea.form-control{
+		height:100px;
+	}
+	.operating-hours{
+		width:200px;
+	}
+	.contact-details{
+		width:200px;
+	}
+	.time-break-line{
+	width:200px;}
 }
 
 @media(max-width:500px){
