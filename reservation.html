@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DL Sushi</title>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://kit.fontawesome.com/5081ea1177.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="restaurant.css">
+	<link rel="stylesheet" type="text/css" href="reservation.css">
+</head>
+<body>
+
+
+	<div class="fly-away-wrapper">
+		<div class="contact-img">
+			<div class="menu-page-title">
+				<div id="menu-page-1">Reservations</div>
+				<p>Reserve a Table!</p>
+			</div>
+		</div>
+
+		<div class="menu-break"></div>
+
+		<div class="res-page-content">
+			<div class="res-col">
+				<div class="ruby">Make a reservation</div>
+				<form>
+					<div class="form-style-change">
+						<label for="res-name">Restaurant name</label>
+						<select>
+							<option>DL Sushi</option>
+						</select>
+						
+					</div>
+					<div class="res-time">
+						<label for="res-time">Reservation Time</label>
+						<input type="time" name="time" id="res-time" required>
+						<label for="res-ending-time">Ending Time</label>
+						<input type="time" name="time" id="res-ending-time" required>
+						<label for="res-date">Date</label>
+						<input type="date" name="time" id="res-date" required>
+					</div>
+					<div class="form-style-change">
+						<label for="full-name">Fullname</label>
+						<input type="text" name="name" id="full-name" required>	
+					</div>
+					<div class="form-style-change">
+						<label for="phone-num">Phone Number</label>
+						<input type="tel" name="phone" id="phone-num">
+					</div>
+					<div class="form-style-change">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email">
+					</div>
+					<div class="form-style-change">
+						<label for="p-num">Persons Number</label>
+						<input type="number" name="number" id="p-num">
+					</div>
+					
+				</form>
+				<button class="menu-button view-menu">Make Reservation</button>
+			</div>
+			<div class="res-col">
+				<div class="ruby">Our archives</div>
+				<div><small>May 2015</small></div>
+			</div>
+		</div>
+
+
+
+
+		<div class="menu-break"></div>
+
+		<div class="contact-us">
+			<div class="contact-item"><i class="fas fa-hamburger"></i></div>
+			<div class="contact-item">
+				<p>Call us</p>
+				<p>xxx xxx xxxx</p>
+			</div>
+			<div class="contact-item">
+				<p>Find us</p>
+				<p>Test Address, 34, Live City, Order your food now or book a table.</p>
+			</div>
+			<div class="contact-item">
+				<p>Socialize</p>
+				<div>
+					<div class="contact-icon">
+						<i class="fab fa-facebook-square"></i>
+						<i class="fab fa-twitter-square"></i>
+						<i class="fab fa-linkedin"></i>
+						<i class="fab fa-instagram"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="restaurant.js"></script>
+</body>
+</html>
