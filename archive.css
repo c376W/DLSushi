@@ -1,0 +1,25 @@
+small{
+	margin:5px 0;
+	font-weight: bold;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1rem;
+	color:#000;
+}
+small:hover{
+	cursor: pointer;
+	color:#960505;
+}
+
+.archive-img{
+	/*position: relative;*/
+	background-image: url('http://burger.ketchupthemes.com/wp-content/uploads/2015/05/IMAGE2.jpg');
+}
+.archive-page-content{
+	display: flex;
+	justify-content: space-around;
+}
+.archive-col{
+	display: flex;
+	flex-direction: column;
+	margin:50px 0px;
+}
