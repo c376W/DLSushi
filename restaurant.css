@@ -110,6 +110,7 @@ p{
 	position: relative;
 }
 
+
 .news-dropdown{
 	position: absolute;
 	display: none;
@@ -117,7 +118,24 @@ p{
 	z-index: 4;
 	background-color: rgba(0,0,0,0.8);
 	width:100px;
+	animation-name: news-link-fadein;
+	animation-duration: .3s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
 }
+@keyframes news-link-fadein{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+
+
+
 .news-dropdown li{
 	list-style-type:none;
 	text-align: center;

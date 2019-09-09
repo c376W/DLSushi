@@ -12,7 +12,8 @@ newsLink.addEventListener("mouseover",function(){
 });
 navbar.addEventListener("mouseleave",function(){
 	newsDropdown.style.display="none";
-})
+});
+
 
 navButton.addEventListener("click",function(){
 	if(collapsed.classList[1]==="collapse-show"){
