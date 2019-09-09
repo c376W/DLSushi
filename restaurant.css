@@ -104,6 +104,29 @@ p{
 	top:21px;
 }
 
+.news-link{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.news-dropdown{
+	position: absolute;
+	display: none;
+	top:90px;
+	z-index: 4;
+	background-color: rgba(0,0,0,0.8);
+	width:100px;
+}
+.news-dropdown li{
+	list-style-type:none;
+	text-align: center;
+	transition: color .3s;
+}
+.news-dropdown li:hover{
+	color:#9c0909;
+	cursor: pointer;
+}
 
 
 .menuChoice{
