@@ -435,13 +435,6 @@ button.readMore{
 	color:#7eb033;
 }
 
-
-.mtitle{
-	font-size: 3rem;
-	text-align: center;
-
-}
-
 #about-content{
 	display: flex;
 	justify-content: center;
@@ -545,7 +538,7 @@ button.readMore{
 /*Menu Page*/
 .menu-img{
 	/*position: relative;*/
-	background-image: url('http://burger.ketchupthemes.com/wp-content/uploads/2015/05/image31.jpg');
+	background-image: url('img/menu-page-img.jpg');
 }
 
 .contact-img{
