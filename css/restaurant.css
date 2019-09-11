@@ -5,7 +5,7 @@
 
 body{
 	background-color: #222;
-	background-image:url('img/about-us-hor1.jpg');
+	background-image:url('../img/about-us-hor1.jpg');
 
 }
 
@@ -294,7 +294,7 @@ p{
 	display: flex;
 	flex-direction: column;
 	justify-content:  center;
-	background-image:url('img/about-us-hor1.jpg');
+	background-image:url('../img/about-us-hor1.jpg');
 	padding:10px 80px;
 	flex-wrap: wrap;
 }
@@ -396,7 +396,7 @@ button.readMore{
 	align-items: center;
 	justify-content: center;
 	width:100%;
-	background-image: url('./img/background-pattern1.jpg');
+	background-image: url('../img/background-pattern1.jpg');
 	
 }
 
@@ -468,7 +468,7 @@ button.readMore{
 	justify-content: flex-end;
 	text-align: center;
 	color:#fff;
-	background-image: url('img/most-wanted-sushi.jpg');
+	background-image: url('../img/most-wanted-sushi.jpg');
 }
 
 #horImg-1{
@@ -507,7 +507,7 @@ button.readMore{
 	color:#fff;
 	font-family: 'Roboto Slab', serif;
 	font-weight: bold;
-	background-image: url('./img/your-opinion.jpg');
+	background-image: url('../img/your-opinion.jpg');
 }
 #p1{
 
@@ -538,7 +538,7 @@ button.readMore{
 /*Menu Page*/
 .menu-img{
 	/*position: relative;*/
-	background-image: url('img/menu-page-img.jpg');
+	background-image: url('../img/menu-page-img.jpg');
 }
 
 .contact-img{
@@ -565,7 +565,7 @@ button.readMore{
 .menu-break{
 	height:100px;
 	width:100%;
-	background-image: url('./img/background-pattern1.jpg');
+	background-image: url('../img/background-pattern1.jpg');
 }
 
 .menu-page-content{
