@@ -1,4 +1,5 @@
 
+
 .news-page-content{
 	display: flex;
 	justify-content: space-around;
@@ -11,6 +12,10 @@
 	text-align: center;
 	font-size: 3rem;
 	margin-top:30px;
+}
+.news-title-img{
+	background-image: url('img/news-page-img.jpg');
+	background-size:cover;
 }
 .news-img{
 	width:600px;

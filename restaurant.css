@@ -572,7 +572,7 @@ button.readMore{
 .menu-break{
 	height:100px;
 	width:100%;
-	background-color:#f7a36a;
+	background-image: url('./img/background-pattern1.jpg');
 }
 
 .menu-page-content{
