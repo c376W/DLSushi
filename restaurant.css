@@ -5,7 +5,7 @@
 
 body{
 	background-color: #222;
-	background-image: url('./img/burger-bg.jpg');
+	background-image:url('img/about-us-hor1.jpg');
 
 }
 
@@ -82,7 +82,7 @@ p{
 }
 
 .collapsed-choice:hover{
-	color:#f23f3f;
+	color:#000;
 }
 
 .collapse-show{
@@ -142,7 +142,7 @@ p{
 	transition: color .3s;
 }
 .news-dropdown li:hover{
-	color:#9c0909;
+	color:#89a658;
 	cursor: pointer;
 }
 
@@ -162,11 +162,11 @@ p{
 }
 
 .nav-el:hover{
-	color:#bf1b23;
+	color:#89a658;
 	cursor: pointer;
 }
 .nav-el:focus{
-	color:#f03740;
+	color:#aced47;
 }
 
 .inner-small{
@@ -183,7 +183,7 @@ p{
 	position:absolute;
 	font-family: 'Alfa Slab One', cursive;
 	padding:5px 20px;
-	color:#781010;
+	color:#89a658;
 	font-size: 2rem;
 	background-color: rgb(255,255,255,0.8);
 	bottom:180px;
@@ -261,11 +261,11 @@ p{
 
 .ruby{
 	font-size:1.5rem;
-	color:#960505;
+	color:#7eb033;
 	font-weight: bold;
 }
 .red{
-	color:#960505;
+	color:#7eb033;
 }
 
 .opinion-content{
@@ -294,7 +294,7 @@ p{
 	display: flex;
 	flex-direction: column;
 	justify-content:  center;
-	background-color: #fff;
+	background-image:url('img/about-us-hor1.jpg');
 	padding:10px 80px;
 	flex-wrap: wrap;
 }
@@ -354,7 +354,7 @@ p{
 }
 .contact-icon i:hover{
 	cursor:pointer;
-	color:#781010;
+	color:#7eb033;
 }
 
 button.view-menu,button.readMore{
@@ -363,10 +363,10 @@ button.view-menu,button.readMore{
 	width:180px;
 	padding:10px;
 	border-radius: 5px;
-	background-image: linear-gradient(#7a342f,#572521);
+	background-image: linear-gradient(#85b837,#48631e);
 }
 button.view-menu:hover,button.readMore:hover{
-	background-image: linear-gradient(#572521,#7a342f);
+	background-image: linear-gradient(#48631e,#85b837);
 }
 button.readMore{
 	margin-bottom: 30px;
@@ -390,14 +390,14 @@ button.readMore{
 	margin-right: 10px;
 }
 
-#about-us{
+.about-us{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	width:100%;
-
-	background-color:#f0d7bd;
+	background-image: url('./img/background-pattern1.jpg');
+	
 }
 
 
@@ -405,16 +405,16 @@ button.readMore{
 .about-title{
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 2rem;
-	color:#781010;
+	color:#7eb033;
 	padding-bottom: 0px;
 }
 
-#about-us-1,#about-us-2,#special-menu-1,#special-menu-2,.mtitle,.menu-title-sp,.gallery-1,.gallery-2{
-	color:#781010;
+.about-us-1,.about-us-2,#special-menu-1,#special-menu-2,.mtitle,.menu-title-sp,.gallery-1,.gallery-2{
+	color:#fff;
 
 }
 
-#about-us-1,#special-menu-1,.menu-title-sp,.gallery-1,.mtitle{
+.about-us-1,#special-menu-1,.menu-title-sp,.gallery-1,.mtitle{
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 4rem;
 	margin-top:20px;
@@ -422,7 +422,7 @@ button.readMore{
 }
 
 
-#about-us-2,#special-menu-2,.gallery-2{
+.about-us-2,#special-menu-2,.gallery-2{
 	font-family: 'Hepta Slab', serif;
 	font-size: 2rem;
 	margin-bottom: 20px;
@@ -432,7 +432,7 @@ button.readMore{
 .menu-title-sp{
 	font-size: 3rem;
 	text-align: center;
-	background-color: #fff;
+	color:#7eb033;
 }
 
 
@@ -475,7 +475,7 @@ button.readMore{
 	justify-content: flex-end;
 	text-align: center;
 	color:#fff;
-	background-image: url(./img/most-wanted-burger.jpg);
+	background-image: url('img/most-wanted-sushi.jpg');
 }
 
 #horImg-1{
@@ -514,7 +514,7 @@ button.readMore{
 	color:#fff;
 	font-family: 'Roboto Slab', serif;
 	font-weight: bold;
-	background-image: url('./img/customer-opinion_modified.jpg');
+	background-image: url('./img/your-opinion.jpg');
 }
 #p1{
 
@@ -541,11 +541,6 @@ button.readMore{
 	padding:30px;
 }
 
-.read-more-title{
-	font-size: 3rem;
-	color:#bf1b23;
-	font-family: 'Alfa Slab One', cursive;
-}
 
 /*Menu Page*/
 .menu-img{
@@ -794,10 +789,10 @@ textarea.form-control{
 @media(max-width: 400px){
 
 
-	#about-us-1{
+	.about-us-1{
 		font-size: 2rem;
 	}
-	#about-us-2{
+	.about-us-2{
 		font-size: 1rem;
 	}
 	#pic img{
