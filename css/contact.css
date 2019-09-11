@@ -1,0 +1,68 @@
+
+/*
+	Contact Page
+*/
+
+.map{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.map p{
+	padding:50px 0;
+}
+
+.contact-form-time{
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Hepta Slab', serif;
+}
+
+.contact-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form-enquiry-style{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.form-submit-button{
+	color:#fff;
+	background-color:#85b837;
+	transition: .3s;
+}
+.form-submit-button:hover{
+	background-color: #48631e;
+	color:#fff;
+}
+
+input.form-control,textarea.form-control{
+	width:600px;
+	height:50px;
+}
+
+textarea.form-control{
+	height:100px;
+}
+.operating-hours{
+	width:300px;
+	margin-bottom:50px;
+}
+
+.operating-hour{
+	display: flex;
+	justify-content: space-between;
+	padding:10px;
+}
+.contact-details{
+	margin-bottom:50px;
+	width:400px;
+}
+
+.time-break-line{
+	width:300px;
+	border-bottom:1px solid #111; 
+}
